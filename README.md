@@ -1,2 +1,5 @@
-# WebsocketChat
-A  web chat room  builded with websocket  and  vuejs
+# WebSocketChat
+A  web  of  chat  room   used  with   WebSocket
+# Vue 
+# Element ui
+# Websocket
