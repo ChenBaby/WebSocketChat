@@ -9,10 +9,7 @@ export default new Router({
     {
       path: '/',
       name: 'HelloWorld',
-      component: HelloWorld,
-      props: {
-        msg: '当前聊天室人数：'
-      }
+      component: HelloWorld
     }
   ]
 })

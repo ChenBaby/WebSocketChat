@@ -9,6 +9,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
+    "postbuild": "npm run syntoserver",
     "syn-web": "scp -r dist root@35.200.61.173:/root/websocketchat/",
     "syn-serverjs": "scp websocket_server.js root@35.200.61.173:/root/websocketchat_server",
     "syntoserver": "npm run syn-web && npm run syn-serverjs"

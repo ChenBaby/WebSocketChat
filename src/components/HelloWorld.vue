@@ -22,10 +22,8 @@
 
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  },
   data: () => ({
+    msg: '当前聊天室人数：',
     name: '',
     id: '',
     message: '',
@@ -131,10 +129,10 @@ export default {
       }
     }
   },
-  mounted () {
+  mounted: function () {
     // window.addEventListener('beforeunload', e => this.beforeunloadHandler(e))
   },
-  destroyed () {
+  destroyed: function () {
     // window.removeEventListener('beforeunload', e => this.beforeunloadHandler(e))
   }
 }
