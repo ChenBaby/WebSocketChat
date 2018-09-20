@@ -1,5 +1,5 @@
 # WebSocketChat
-A  web  of  chat  room   used  with   WebSocket
+基于 WebSocket 和 vue 写的简易网页聊天室
 
 npm run dev
 http://localhost:8080/
